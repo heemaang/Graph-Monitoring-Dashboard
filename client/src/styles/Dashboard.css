@@ -1,0 +1,21 @@
+.dashboard-container {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-container label {
+  margin-right: 10px;
+}

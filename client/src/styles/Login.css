@@ -1,0 +1,60 @@
+/* loginStyles.css */
+
+/* Center contents vertically */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  /* Adjust form width */
+  .login-form {
+    background-color: white; /* Light background color */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Adjust input size and margin */
+  .login-input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the welcome message section */
+  .welcome-message {
+    background-color: #82558a; /* Primary color background */
+    color: #fff; /* Text color */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Center text and adjust font */
+  .welcome-heading {
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Example of using a specific font */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 74px;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #82558a;
+    border-color: #82558a;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6b436f; /* Darken a bit on hover */
+    border-color: #6b436f;
+    color: #fff;
+  }
+  .login-heading{
+    color:#82558a;
+    font-weight: bold;
+  }
+  .signup{
+    color:#82558a;
+  }

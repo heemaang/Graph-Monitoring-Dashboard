@@ -1,0 +1,19 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    margin-top: 11rem;
+    color: #82558a;
+    margin-left: 10rem;
+  }
+  
+  .home-container h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    font-weight: 900;
+ }
+  
+  
+  .home-container p {
+    font-size: 1.5em;
+  }
+  

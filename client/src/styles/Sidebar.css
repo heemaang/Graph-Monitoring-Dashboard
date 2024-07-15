@@ -1,0 +1,121 @@
+/* Define CSS variables for easy color management */
+:root {
+  --sidebar-bg-color: #82558a;
+  --sidebar-hover-bg-color: #6b456f;
+  --sidebar-text-color: white;
+  --sidebar-heading-color: #d1a5d3;
+  --sidebar-link-hover-color: #b089b0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: var(--sidebar-bg-color);
+  padding-top: 20px;
+  transition: width 0.3s ease-in-out;
+}
+
+.sidebar h2 {
+  color: var(--sidebar-heading-color);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: var(--sidebar-text-color);
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: var(--sidebar-hover-bg-color);
+  color: var(--sidebar-link-hover-color);
+}
+.logout-button {
+  align-self: flex-end;
+  margin: 45px;
+  padding: 10px 20px;
+  background-color: #82558a; /* Update this color as per your theme */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #6b456f;; /* Update this color as per your theme */
+}
+.home-link {
+  text-decoration: none;
+  color: inherit; /* Maintain the original color of the heading */
+}
+
+.home-link h2 {
+  cursor: pointer;
+}
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60px;
+    padding-top: 10px;
+  }
+
+  .sidebar h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar ul li {
+    padding: 8px;
+  }
+
+  .sidebar ul li a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 10px;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sidebar ul li {
+    padding: 10px;
+  }
+
+  .sidebar ul li a {
+    font-size: 14px;
+  }
+}
